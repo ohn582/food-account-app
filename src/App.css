@@ -1,38 +1,407 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+
+body{
+
+  background-color: rgba(37, 40, 41, 0.589);
+  background-image: url("https://www.sasiwallpaper.co.za/content/products/12586-black-brick/Black-Brick.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.footer {
+  /* position: fixed; */
+  /* left: 0;
+  bottom: 0; */
+  width: 100%;
   text-align: center;
+  color: #5f6668 ;
+  background-color:rgb(50, 56, 62) ;
+  font-family: 'Courgette';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote{
+  font-size:  18px;
+  width: 100%;
+  text-align: center;
+  color: rgb(95, 102, 104) ;
+  background-color:#32383E ;
+  padding-bottom: 3%;
+  margin-bottom: 0%;
+  bottom: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.quote:hover {
+  color: rgb(255,20,147) ;
+}
+.logo1{
+  font-family: 'Permanent Marker', cursive;
+  font-size:  30px;
+  color: rgb(25, 195, 238) !important;
+}
+.logo1:hover{
+  color: rgba(255, 20, 147)!important;
+  text-decoration: none !important;
+
+  
+}
+.logo{
+  font-family: 'Permanent Marker', cursive;
+  font-size:  30px;
+  color: rgb(255, 255, 255) !important;
+}
+.logo:hover{
+  color: #ff1493!important;
+  text-decoration: none !important;
+}
+
+.cart:hover{
+  color: yellow !important;
+}
+
+
+.pink-text{
+  color: #353334;
+  font-family: 'Black Ops One', cursive;
+  border-radius: 15px 15px 0px;
+  background: rgba(255, 255, 255, 0.808);
+  padding: 20px;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.fa {
+  padding: 20px !important;
+  font-size: 30px !important;
+  width: 80px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  margin: 5px 2px !important;
+  
+}
+
+.fa:hover {
+    opacity: 0.9 !important;
+    color: rgb(25, 195, 238) !important;
+    text-decoration: rgb(25, 195, 238) !important;
   }
+
+/* ======================={ Style with Hover Bloc }==================== */
+
+.fa-facebook {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa-facebook:hover {
+  opacity: 0.9;
+  color: rgb(29, 61, 131) ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* ======================={ Style with Hover Bloc }==================== */
+
+.fa-twitter {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa-twitter:hover {
+  opacity: 0.9;
+  color: #55ACEE !important;
+}
+/* ======================={ Style with Hover Bloc }==================== */
+
+.fa-linkedin {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa-linkedin:hover {
+  opacity: 0.9;
+  color:#0271AE !important;
+}
+/* ======================={ Style with Hover Bloc }==================== */
+
+.fa-youtube {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa-youtube:hover {
+  opacity: 0.9;
+  color: #F24423   !important;
+}
+
+/* ======================={ Style with Hover Bloc }==================== */
+
+.fa-instagram {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa-instagram:hover {
+  opacity: 0.9;
+  color: #d6249f  !important;
+}
+
+/* ======================={ Style with Hover Bloc }==================== */
+
+
+.fa-pinterest {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+/* ======================={ Style with Hover Bloc }==================== */
+
+.fa-foursquare {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fa-foursquare:hover {
+  opacity: 0.9;
+  color: #EA4E75
+  !important;
+}
+
+/* ======================={ Style with Hover Bloc:  }==================== */
+
+.fa-reddit {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa-reddit:hover {
+  opacity: 0.9;
+  color: #EC4222 !important;
+}
+
+/* ======================={ Style with Hover Bloc:  }==================== */
+
+.fa-yahoo {
+  color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa-yahoo:hover {
+  opacity: 0.9;
+  color: #6658CE!important;
+}
+
+
+
+/* ==========================Buttons color */
+
+.buttons-color {
+  background-color:#ff1493 !important;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.buttons-color:hover {
+  background-color:#343A40 !important;
+  color: rgb(255,20,147);
+}
+.active{
+  color: rgb(255,20,147) !important;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons-color-red{
+  background-color:rgb(219, 20, 20) !important;
+  color: white;
 }
+.buttons-color-red:hover {
+  background-color:rgb(6, 130, 255) !important;
+  color: rgb(255, 255, 255);
+}
+
+.buttons-color-green{
+  background-color:rgb(106, 195, 4) !important;
+  color: white;
+}
+.buttons-color-green:hover {
+  background-color:rgb(194, 4, 200) !important;
+  color: rgb(255, 255, 255);
+}
+.buttons-color-default-page{
+  background-color:#ff1493 !important;
+  color: white;
+}
+.buttons-color-default-page:hover {
+  background-color:rgb(255, 255, 255) !important;
+  color: rgb(77, 72, 72);
+}
+
+.switch{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #343A40;
+
+}
+.switch:hover{
+  color: rgb(255, 248, 252);
+}
+
+
+
+/* ==========================Sign in Image Losange */
+
+
+.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.losange {
+  transform: rotate(180deg) translateY(10px);
+}
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-160deg) translateY(74px);
+}
+.losange .los1 img {
+  width: 100%;
+  height: auto;
+}
+
+
+.signInOut{
+  font-family: 'Black Ops One', cursive;
+}
+
+
+
+/* ======================={ Styling The Cart:  }==================== */
+
+.btn-incDec{
+  background:transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: #353334;
+  border-radius: 0.5rem !important;
+  border : 0.05rem dashed  #353334 !important;
+  font-weight: bold;
+}
+
+.btn-incDec:hover{
+  background: #353334e7 !important;
+  color: azure !important;
+}
+
+.border-pink{
+  border-radius: 0.5rem;
+  border: 0.04rem solid rgba(255, 20, 145, 0.479) !important;
+  transition:  0.3s ease-in-out;
+  
+
+}
+.border-pink:hover{
+  border: 0.15rem solid rgba(37, 40, 41, 0.589) !important;
+  box-shadow: 10px 10px 5px grey;
+  transition:  0.2s ease-in-out;
+}
+
+
+.btn-remove{
+  color:rgb(54, 195, 238);
+
+}
+.btn-remove:hover{
+  color:rgb(255, 20, 145);
+}
+
+.bgWhite{
+  background: white;
+  border-top: 0.01rem solid rgba(53, 53, 53, 0.603);
+}
+
+/* ======================={ Styling The 404 page:  }==================== */
+
+
+
+
+/* ======================={ Styling The cart counter:  }==================== */
+
+.cartCounter{
+  font-family: 'Viga', sans-serif;
+  color:rgb(217, 238, 25);
+  font-size: large;
+}
+.cartCounter:hover{
+  font-family: 'Viga', sans-serif;
+  color: rgb(255, 20, 145);
+  font-size: large;
+}
+
+
+
+.changeBgByClickingSwitchBtn{
+  background-image: url("https://www.sasiwallpaper.co.za/content/products/12586-black-brick/Black-Brick.jpg");
+  background-position: 'center';
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  background-attachment: 'fixed';
+}
+
+.whiteBg{
+  background-color: white;
+}
+
+.cart-subtotal{
+  background-color: rgba(31, 30, 30, 0.555);
+  border: 2px solid rgb(255, 20, 145);
+  border-radius: 25px ;
+  color: white !important;
+}
+
+/* ======================={ Removing the borders from Bootstrap cart table:  }==================== */
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+/* ========================Navbar */
+
+.top-nav-collapse {
+  background-color: #0e0b0bf5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: #04050ab4 !important;
+} 

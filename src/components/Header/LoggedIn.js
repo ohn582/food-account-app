@@ -1,5 +1,3 @@
-definitions or references in the same repository.Learn more
-
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 

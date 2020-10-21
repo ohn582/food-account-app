@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-
+2
 
 export default class LoggedOut extends Component {
     render() {
